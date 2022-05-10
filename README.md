@@ -1,8 +1,8 @@
 # OpenWRT-S905D
 
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/Aibx/OpenWRT-S905D/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/Aibx/OpenWRT-S905D.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/Aibx/OpenWRT-S905D.svg?style=flat-square&label=Forks&logo=github)
+[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/Aibx/OpenWRT-S905D-Mini/blob/master/LICENSE)
+![GitHub Stars](https://img.shields.io/github/stars/Aibx/OpenWRT-S905D-Mini.svg?style=flat-square&label=Stars&logo=github)
+![GitHub Forks](https://img.shields.io/github/forks/Aibx/OpenWRT-S905D-Mini.svg?style=flat-square&label=Forks&logo=github)
 
 ## 斐讯N1 Openwrt自动编译
 
@@ -12,14 +12,14 @@
 
 > 当前内核：5.4.188|5.10.111|5.15.38|5.17.6
 
-[![GitHub Action (latest by date)](https://img.shields.io/github/workflow/status/Aibx/OpenWRT-S905D/Build%20OpenWRT%20for%20N1?style=for-the-badge&logo=appveyor&label=Build%20Status)](https://github.com/Aibx/OpenWRT-S905D/actions)
-[![GitHub Release (latest by date)](https://img.shields.io/github/v/release/Aibx/OpenWRT-S905D?style=for-the-badge&label=Download)](https://github.com/Aibx/OpenWRT-S905D/releases/latest)
+[![GitHub Action (latest by date)](https://img.shields.io/github/workflow/status/Aibx/OpenWRT-S905D-Mini/Build%20OpenWRT%20for%20N1?style=for-the-badge&logo=appveyor&label=Build%20Status)](https://github.com/Aibx/OpenWRT-S905D-Mini/actions)
+[![GitHub Release (latest by date)](https://img.shields.io/github/v/release/Aibx/OpenWRT-S905D-Mini?style=for-the-badge&label=Download)](https://github.com/Aibx/OpenWRT-S905D-Mini/releases/latest)
 - 本项目为斐讯N1固件自动编译打包脚本仓库，每日0:30 UTC(北京时间8:30)和12:30 UTC(北京时间20:30)自动编译，预计4小时完成编译工作
 - 内含精选Vssr、SSRPlus、Passwall、京东签到、Clash、Adguard、去广告、迅雷快鸟、网易UU等绝大多数常用插件，包含仓库内基本全部的主题，每日跟随仓库软件编译
-- 如果最新版本不含img等文件即编译失败，请前往[Releases](https://github.com/Aibx/OpenWRT-S905D/releases)或[Actions](https://github.com/Aibx/OpenWRT-S905D/actions?query=workflow%3A%22Build+OpenWrt%22)寻找旧版
+- 如果最新版本不含img等文件即编译失败，请前往[Releases](https://github.com/Aibx/OpenWRT-S905D-Mini/releases)或[Actions](https://github.com/Aibx/OpenWRT-S905D-Mini/actions?query=workflow%3A%22Build+OpenWrt%22)寻找旧版
 - Releases仅保留最新14份编译内容,Actions则保留30天内全部的编译内容,WeTransfer下载链接有效时长为7天，Cowtransfer已改为1天
 
-> 如需IPK文件请前往[Actions](https://github.com/Aibx/OpenWRT-S905D/actions?query=workflow%3A%22Build+OpenWrt%22)内下载文件名含"OpenWrt_bin"的文件
+> 如需IPK文件请前往[Actions](https://github.com/Aibx/OpenWRT-S905D-Mini/actions?query=workflow%3A%22Build+OpenWrt%22)内下载文件名含"OpenWrt_bin"的文件
 
 ## 版本选择
 - 带有+的内核版本为5.10+，内核较新，含有新特性，但相对可能更加不稳定
