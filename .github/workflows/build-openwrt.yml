@@ -148,7 +148,11 @@ jobs:
       run: |
         cd /opt/openwrt_packit
         sudo cp files/openwrt-update-amlogic output/update-amlogic-openwrt.sh
-
+        
+    - name: copy config files
+      run: |
+        sudo cp openwrt/.config output/N1.config
+        
     - name: Upload OpenWrt Firmware to Releases
       uses: softprops/action-gh-release@v1
       env:
