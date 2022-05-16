@@ -151,7 +151,7 @@ jobs:
         
     - name: copy config files
       run: |
-        sudo cp openwrt/.config output/N1.config
+        sudo cp openwrt/.config /opt/openwrt_packit/output/N1.config
         
     - name: Upload OpenWrt Firmware to Releases
       uses: softprops/action-gh-release@v1
